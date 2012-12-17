@@ -13,7 +13,7 @@ Next, clone the repo and create your project:
 $ git clone git@github.com:andrewvida/coffeescript-jasmine-boilerplate.git <your-project-name>
 ```
 
-Then, install grunt and all of its dependencies:
+Then, install grunt and all of its dependencies from the root of your project:
 ``` bash
 $ npm install
 ```
@@ -31,4 +31,15 @@ Once you're ready, kick it off by executing:
 
 ``` bash
 $ grunt watch
+```
+--NOTE: grunt-contrib-watch is still work in progress, so if you add a new .coffee file and nothing happens, you can compile
+manually and run the tests by using:
+
+```bash
+$ grunt coffee
+```
+then
+
+```bash
+$ grunt jasmine
 ```
