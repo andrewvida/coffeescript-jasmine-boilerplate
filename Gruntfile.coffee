@@ -6,9 +6,8 @@ module.exports = (grunt) ->
       specs: 'spec/**/*.js'
 
     watch:
-      run_tests:
-        files: ['src/**/*.coffee', 'src/**/*.coffee']
-        tasks: 'test'
+        files: '**/*.coffee'
+        tasks: ['test']
 
     jasmine:
       src: '<%= meta.src %>'
@@ -19,12 +18,12 @@ module.exports = (grunt) ->
     coffee:
       compile:
         files:
-          'src/kata.js': ['src/*.coffee']
-          'spec/kata.js': ['spec/*.coffee']
+          'src/kata_src.js': ['src/*.coffee']
+          'spec/kata_spec.js': ['spec/*.coffee']
 
-  grunt.loadNpmTasks('grunt-contrib-jasmine')
-  grunt.loadNpmTasks('grunt-contrib-coffee')
   grunt.loadNpmTasks('grunt-contrib-watch')
+  grunt.loadNpmTasks('grunt-contrib-coffee')
+  grunt.loadNpmTasks('grunt-contrib-jasmine')
 
 
   grunt.registerTask('test', ['coffee', 'jasmine'])
