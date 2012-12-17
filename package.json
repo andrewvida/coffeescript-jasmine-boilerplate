@@ -1,0 +1,17 @@
+{
+  "name": "coffeescript-jasmine-boilerplate",
+  "version": "0.0.0",
+  "description": "A simple way to get started writing and testing coffeescript; good for katas!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Andrew Vida",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt-contrib-jasmine": "latest",
+    "grunt": "~0.4.0a",
+    "grunt-contrib-coffee": "~0.3.2",
+    "grunt-contrib-watch": "~0.2.0a"
+  }
+}
