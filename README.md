@@ -1,6 +1,6 @@
 # coffeescript-jasmine-boilerplate
 
-coffeescript-jasmine-boilerplate is a small framework that was created with code katas in mind.  It gives you quick way
+coffeescript-jasmine-boilerplate is a small framework that was created with code katas in mind.  It gives you a quick way
 to begin writing and testing CoffeeScript with Jasmine.
 
 ## Getting Started
@@ -10,7 +10,7 @@ First, you'll need [node.js](http://nodejs.org) and [PhantomJS](http://phantom.j
 Next, clone the repo and create your project:
 
 ``` bash
-$ git clone git://github.com/andrewvida/coffeescript-jasmine-boilerplate <your-project-name>
+$ git clone git@github.com:andrewvida/coffeescript-jasmine-boilerplate.git <your-project-name>
 ```
 
 Then, install grunt and all of its dependencies:
