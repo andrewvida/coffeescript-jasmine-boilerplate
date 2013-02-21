@@ -17,8 +17,8 @@
   "license": "BSD",
   "devDependencies": {
     "grunt-contrib-jasmine": "latest",
-    "grunt": "~0.4.0a",
-    "grunt-contrib-coffee": "~0.3.2",
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "~0.4.0",
     "grunt-contrib-watch": "~0.2.0a"
   }
 }
